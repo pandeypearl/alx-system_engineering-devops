@@ -1,1 +1,1 @@
-My first commit
+Script printing absolute path of current working directory
