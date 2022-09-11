@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u=rwx,g=rx,o+x /alx-system_engineering-devops/0x01-shell_permissions
+chmod -R u=rwX,g=rX,o=rX /alx-system_engineering-devops/0x01-shell_permissions
