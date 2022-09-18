@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | sort | uniq
+ls -t [0x02-shell_redirections]
