@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Script using nested if statements
-file="School"
+file="school"
 if [ -e $file ]
 then
 	echo "$file file exists"
@@ -14,7 +14,7 @@ then
 
 	if [ -f $file ]
 	then
-		echo "$file file is regular file"
+		echo "$file is a regular file"
 	fi
 else
 	echo "$file file does not  exist"
