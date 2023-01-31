@@ -4,7 +4,7 @@
 
 ### 0. Simply matching School
 
-[Task 0 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8a15bf257cc43dc73093165c52b01a42cc44cb4c3fb158e58d85f5a6f557486e)
+![Task 0 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8a15bf257cc43dc73093165c52b01a42cc44cb4c3fb158e58d85f5a6f557486e)
 
 Requirements:
 - The regular expression must match School
@@ -12,7 +12,7 @@ Requirements:
 
 ### 1. Repetition Token #0
 
-[TASK 1 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/e7db3c377d46453588fc84f3a975661d142fee91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9e3b0bb1ae498d58b76d35484e28b7dc58279d890a8e336d4b284c69ae161854)
+![TASK 1 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/e7db3c377d46453588fc84f3a975661d142fee91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9e3b0bb1ae498d58b76d35484e28b7dc58279d890a8e336d4b284c69ae161854)
 
 Requirements:
 - Find the regular expression that will match the above cases
@@ -20,7 +20,7 @@ Requirements:
 
 ### 2. Repetition Token #1
 
-[Task 2 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/c59ff11db195d5cf17d1790a5141ae2f234786d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d0f053bac3331a40a0c4a1cb3aad3a5463254ac4d2b15e0fcdf121c0dd60360e)
+![Task 2 Image](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/c59ff11db195d5cf17d1790a5141ae2f234786d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d0f053bac3331a40a0c4a1cb3aad3a5463254ac4d2b15e0fcdf121c0dd60360e)
 
 Requirements:
 - Find the regular expression that will match the above cases
