@@ -1,17 +1,24 @@
 # 0x06. Regular expression
 
 ## TASKS
+
 ### 0. Simply matching School
+
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/ec65557f0da1fbfbff6659413885e4d4822f5b1d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8a15bf257cc43dc73093165c52b01a42cc44cb4c3fb158e58d85f5a6f557486e" alt="Task 0 Image" />
 Requirements:
 - The regular expression must match School
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
 ### 1. Repetition Token #0
+
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/e7db3c377d46453588fc84f3a975661d142fee91.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9e3b0bb1ae498d58b76d35484e28b7dc58279d890a8e336d4b284c69ae161854" alt="Task 1 Image" />
 Requirements:
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
 ### 2. Repetition Token #1
+
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/c59ff11db195d5cf17d1790a5141ae2f234786d2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230131%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230131T103742Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d0f053bac3331a40a0c4a1cb3aad3a5463254ac4d2b15e0fcdf121c0dd60360e" alt="Task 2 Image" />
 Requirements:
 - Find the regular expression that will match the above cases
 - Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
@@ -42,6 +49,7 @@ Requirement:
 - The regular expression must be only matching: capital letters
 
 Example:
+<pre>
 <code>
 sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
 ILOVESYSADMIN$
@@ -51,6 +59,7 @@ sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "cannot read you" | cat -e
 $
 sylvain@ubuntu$
 </code>
+</pre>
 
 ## ADVANCED TASKS
 
@@ -68,6 +77,7 @@ Requirements:
 You can find a <a href="intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/78/text_messages.log"> [log file here].</a>
 
 Example:
+<pre>
 <code>
 $ ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-0-11 mdr: 2016-02-01 11:00:00 Receive SMS [SMSC:SYBASE1] [SVC:] [ACT:] [BINF:] [FID:] [from:Google] [to:+16474951758] [flags:-1:0:-1:0:-1] [msg:127:This planet has - or rather had - a problem, which was this: most of the people on it were unhappy for pretty much of the time.] [udh:0:]'
 Google,+16474951758,-1:0:-1:0:-1
@@ -84,4 +94,4 @@ $ ./100-textme.rb 'Feb 1 11:00:00 ip-10-0-64-11 mdr: 2016-02-01 11:00:00 Sent SM
 12392190384,19148265919,-1:0:-1:-1:-1
 $
 </code>
-
+</pre>
