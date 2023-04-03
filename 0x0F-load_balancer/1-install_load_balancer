@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Script that installs and sets up haproxy
+
+apt-get install -y software-properties-common
+add-apt-repository -y ppa:vbernat/haproxy-1.8
+apt-get -y update
+apt-get install -y haproxy=1.8.\*
+
+echo "ENABLED=1" > /ect/default/haproxy
+
+# Listen to web1 and web2 server
+echo"
+   listen load_balancer
+   bind *:80
+   mode http
+   balance roundrobin
+   option httpclose
+   option forwardfor
+   server 99567-web-01 54.90.161.35 check
+   server 99567-web-02 35.153.51.245 check
+" >> /etc/haproxy/haproxy.cfg
+
+service haproxy start
