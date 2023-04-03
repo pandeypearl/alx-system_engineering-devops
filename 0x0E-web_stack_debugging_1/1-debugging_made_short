@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Script to swtch from port 8080 to 80 and send a SIGHUP
+sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
+p-kill -SIGHUP nginx
