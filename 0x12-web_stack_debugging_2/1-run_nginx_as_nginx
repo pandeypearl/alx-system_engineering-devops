@@ -1,4 +1,4 @@
-#!/usr/bin/env/bash
+#!/usr/bin/env bash
 # makes nginx run as user nginx
 sudo pkill apache2
 sudo chmod 644 /etc/nginx/nginx.conf
