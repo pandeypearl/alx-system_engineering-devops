@@ -4,7 +4,7 @@ of subscribers"""
 import requests
 
 
-BASE_URL = 'https://reddit.com'
+BASE_URL = 'https://www.reddit.com'
 
 
 def number_of_subscribers(subreddit):
