@@ -8,8 +8,8 @@ BASE_URL = 'https://www.reddit.com'
 """Reddit's base API URL"""
 
 
-def number_of_subscribers(subreddit):
-    """Retrieves number of subscribers in given subreddit"""
+def top_ten(subreddit):
+    """Retrieves the title of top ten posts from given subreddit"""
     api_headers = {
         'Accept': 'application/json',
         'User-Agent': ' '.join([
@@ -20,11 +20,20 @@ def number_of_subscribers(subreddit):
             'Edg/97.0.1072.62'
         ])
     }
+    sort = 'top'
+    limit = 10
     res = requests.get(
-        '{}/r/{}/about/.json'.format(BASE_URL, subreddit),
+        '{}/r/{}/.json?sort={}&limit={}'.format(
+            BASE_URL,
+            subreddit,
+            sort,
+            limit
+        ),
         headers=api_headers,
         allow_redirects=False
     )
     if res.status_code == 200:
-        return res.json()['data']['subscribers']
-    return 0
+        for post in res.json()['data']['children'][0:10]:
+            print(post['data']['title'])
+    else:
+        print(None)
