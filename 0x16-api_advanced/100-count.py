@@ -4,15 +4,8 @@ posts of given Reddit subreddit"""
 import requests
 
 
-def count_words(subreddit, word_list, instances={}, after="", count=0)
-    """Prints count of words found in hot posts of subreddit
-    Args:
-        subreddit (str): The subreddit to search
-        word_list (list): The list of words to search
-        instances (obj): Key/value pairs of words/count
-        after (str): The parameter for next page of results
-        before (str): The parameter of results matched thus far
-    """
+def count_words(subreddit, word_list, instances={}, after="", count=0):
+    """Prints count of given words found in hot posts of subreddit"""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
@@ -35,7 +28,7 @@ def count_words(subreddit, word_list, instances={}, after="", count=0)
     results = results.get("data")
     after = results.get("after")
     count += results.get("dist")
-    for c  in results.get("children"):
+    for c in results.get("children"):
         title = c.get("data").get("title").lower().split()
         for word in word_list:
             if word.lower() in title:
