@@ -1,0 +1,10 @@
+# Default server configuration
+
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+	add_header X-Served-By "$HOSTNAME";
+	rewrite ^/redirect_me https://alx-intranet.hbtn.io/ permanent;
+
+	# SSL configuration
+
